@@ -1,6 +1,10 @@
-{
+﻿{
   "recommendations": [
+    "apollographql.vscode-apollo",
     "graphql.vscode-graphql",
+    "prisma.prisma",
     "shopify.polaris-for-vscode",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
   ]
 }
