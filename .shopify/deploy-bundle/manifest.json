@@ -1,0 +1,66 @@
+﻿{
+    "name":  "shop-chat-agent",
+    "handle":  "",
+    "modules":  [
+                    {
+                        "type":  "theme_app_extension",
+                        "handle":  "chat-bubble",
+                        "uid":  "770e3d9e-3fe9-98c2-0c3d-fe71ee70a7db5cc97b39",
+                        "uuid":  "770e3d9e-3fe9-98c2-0c3d-fe71ee70a7db5cc97b39",
+                        "assets":  "770e3d9e-3fe9-98c2-0c3d-fe71ee70a7db5cc97b39",
+                        "target":  "",
+                        "config":  {
+                                       "theme_extension":  {
+                                                               "files":  {
+
+                                                                         }
+                                                           }
+                                   }
+                    },
+                    {
+                        "type":  "app_access",
+                        "handle":  "app_access",
+                        "uid":  "app_access",
+                        "assets":  "app_access",
+                        "target":  "",
+                        "config":  {
+                                       "scopes":  "customer_read_customers,customer_read_orders,customer_read_store_credit_account_transactions,customer_read_store_credit_accounts,unauthenticated_read_product_listings",
+                                       "redirect_url_allowlist":  [
+                                                                      "https://epir-asystent-klienta.fly.dev/auth/callback",
+                                                                      "https://localhost:3458/auth/callback"
+                                                                  ]
+                                   }
+                    },
+                    {
+                        "type":  "webhooks",
+                        "handle":  "webhooks",
+                        "uid":  "webhooks",
+                        "assets":  "webhooks",
+                        "target":  "",
+                        "config":  {
+                                       "api_version":  "2026-01"
+                                   }
+                    },
+                    {
+                        "type":  "app_home",
+                        "handle":  "app_home",
+                        "uid":  "app_home",
+                        "assets":  "app_home",
+                        "target":  "",
+                        "config":  {
+                                       "app_url":  "https://example.com",
+                                       "embedded":  true
+                                   }
+                    },
+                    {
+                        "type":  "branding",
+                        "handle":  "branding",
+                        "uid":  "branding",
+                        "assets":  "branding",
+                        "target":  "",
+                        "config":  {
+                                       "name":  "shop-chat-agent"
+                                   }
+                    }
+                ]
+}
