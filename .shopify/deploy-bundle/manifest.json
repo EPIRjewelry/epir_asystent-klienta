@@ -48,7 +48,7 @@
                         "assets":  "app_home",
                         "target":  "",
                         "config":  {
-                                       "app_url":  "https://example.com",
+                                       "app_url":  "https://epir-asystent-klienta.fly.dev",
                                        "embedded":  true
                                    }
                     },
@@ -60,6 +60,18 @@
                         "target":  "",
                         "config":  {
                                        "name":  "shop-chat-agent"
+                                   }
+                    },
+                    {
+                        "type":  "app_proxy",
+                        "handle":  "app_proxy",
+                        "uid":  "app_proxy",
+                        "assets":  "app_proxy",
+                        "target":  "",
+                        "config":  {
+                                       "url":  "https://epir-asystent-klienta.fly.dev",
+                                       "subpath":  "assistant",
+                                       "subpath_prefix":  "apps"
                                    }
                     }
                 ]
